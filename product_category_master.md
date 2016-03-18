@@ -67,7 +67,7 @@ FORMAT: 1A
 ### Delete Product Category [DELETE]
 
 + Response 200 (application/json)
-    
+
     + Attributes
 
         + message: Product Category deleted
