@@ -36,6 +36,8 @@ FORMAT: 1A
 
 ### Get Product Categories [GET]
 
++ Request (application/json)
+
 + Response 200 (application/json)
 
     + Attributes (array[Product Category All])
@@ -46,6 +48,8 @@ FORMAT: 1A
     + id (number) - auto increment id
 
 ### Get Product Category Detail [GET]
+
++ Request (application/json)
 
 + Response 200 (application/json)
 
@@ -65,6 +69,8 @@ FORMAT: 1A
         + data: Product Category All
 
 ### Delete Product Category [DELETE]
+
++ Request (application/json)
 
 + Response 200 (application/json)
 

@@ -38,6 +38,8 @@ FORMAT: 1A
 
 ### Get Suppliers [GET]
 
++ Request (application/json)
+
 + Response 200 (application/json)
 
     + Attributes (array[Supplier All])
@@ -48,6 +50,8 @@ FORMAT: 1A
     + id (number) - auto increment id
 
 ### Get Supplier Detail [GET]
+
++ Request (application/json)
 
 + Response 200 (application/json)
 
@@ -67,6 +71,8 @@ FORMAT: 1A
         + data: Supplier All
 
 ### Delete Supplier [DELETE]
+
++ Request (application/json)
 
 + Response 200 (application/json)
 
