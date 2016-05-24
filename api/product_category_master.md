@@ -7,11 +7,13 @@ FORMAT: 1A
 ### Product Category All (object)
 + id: 1
 + code: HV
++ name: HV
 + description: Obat Bebas
 
 ### Product Category Post (object)
 + code: NONHV
-+ description: Obat Tidat Bebas
++ name: Non HV
++ description: Obat Tidak Bebas
 
 ## Product Categories [/product_categories]
 
